@@ -1,0 +1,244 @@
+{
+  "collections": [
+    {
+      "id": 1,
+      "name": "Summer Essentials",
+      "description": "Lightweight and breathable pieces for warm weather",
+      "category": "Seasonal",
+      "items": [
+        {
+          "id": 101,
+          "name": "Linen Blend Shirt",
+          "price": 79.99,
+          "originalPrice": 99.99,
+          "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "colors": ["#F7FAFC", "#4A5568", "#2B6CB0"],
+          "sizes": ["S", "M", "L", "XL"],
+          "isNew": true
+        },
+        {
+          "id": 102,
+          "name": "Cotton Shorts",
+          "price": 49.99,
+          "originalPrice": 64.99,
+          "image": "https://images.unsplash.com/photo-1719473466836-ff9f5ebe0e1b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "colors": ["#2D3748", "#744210", "#1A365D"],
+          "sizes": ["S", "M", "L", "XL"],
+          "isNew": false
+        },
+        {
+          "id": 103,
+          "name": "Beach Cover-Up",
+          "price": 59.99,
+          "originalPrice": 79.99,
+          "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "colors": ["#FBB6CE", "#B83280", "#D69E2E"],
+          "sizes": ["S", "M", "L", "XL"],
+          "isNew": true
+        },
+        {
+          "id": 104,
+          "name": "Straw Sun Hat",
+          "price": 34.99,
+          "originalPrice": 44.99,
+          "image": "https://images.unsplash.com/photo-1583703779199-e6ed378df595?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "colors": ["#D69E2E", "#744210", "#F7FAFC"],
+          "sizes": ["One Size"],
+          "isNew": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Urban Streetwear",
+      "description": "Contemporary street style with urban edge",
+      "category": "Lifestyle",
+      "items": [
+        {
+          "id": 201,
+          "name": "Oversized Hoodie",
+          "price": 89.99,
+          "originalPrice": 119.99,
+          "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "colors": ["#000000", "#4A5568", "#E53E3E"],
+          "sizes": ["S", "M", "L", "XL", "XXL"],
+          "isNew": true
+        },
+        {
+          "id": 202,
+          "name": "Cargo Pants",
+          "price": 99.99,
+          "originalPrice": 129.99,
+          "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "colors": ["#4A5568", "#744210", "#1A365D"],
+          "sizes": ["S", "M", "L", "XL"],
+          "isNew": false
+        },
+        {
+          "id": 203,
+          "name": "Graphic Tee",
+          "price": 39.99,
+          "originalPrice": 49.99,
+          "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "colors": ["#FFFFFF", "#000000", "#E53E3E"],
+          "sizes": ["S", "M", "L", "XL"],
+          "isNew": true
+        },
+        {
+          "id": 204,
+          "name": "Dad Cap",
+          "price": 29.99,
+          "originalPrice": 39.99,
+          "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "colors": ["#000000", "#4A5568", "#744210"],
+          "sizes": ["One Size"],
+          "isNew": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Evening Elegance",
+      "description": "Sophisticated pieces for special occasions",
+      "category": "Formal",
+      "items": [
+        {
+          "id": 301,
+          "name": "Silk Evening Gown",
+          "price": 249.99,
+          "originalPrice": 299.99,
+          "image": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "colors": ["#000000", "#805AD5", "#B83280"],
+          "sizes": ["XS", "S", "M", "L"],
+          "isNew": true
+        },
+        {
+          "id": 302,
+          "name": "Tailored Blazer",
+          "price": 179.99,
+          "originalPrice": 219.99,
+          "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "colors": ["#000000", "#4A5568", "#744210"],
+          "sizes": ["S", "M", "L", "XL"],
+          "isNew": false
+        },
+        {
+          "id": 303,
+          "name": "Chiffon Blouse",
+          "price": 89.99,
+          "originalPrice": 109.99,
+          "image": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "colors": ["#FFFFFF", "#FBB6CE", "#D69E2E"],
+          "sizes": ["XS", "S", "M", "L"],
+          "isNew": true
+        },
+        {
+          "id": 304,
+          "name": "Evening Clutch",
+          "price": 69.99,
+          "originalPrice": 89.99,
+          "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "colors": ["#000000", "#805AD5", "#D69E2E"],
+          "sizes": ["One Size"],
+          "isNew": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Athleisure Wear",
+      "description": "Comfort meets style for active lifestyles",
+      "category": "Activewear",
+      "items": [
+        {
+          "id": 401,
+          "name": "Performance Leggings",
+          "price": 69.99,
+          "originalPrice": 89.99,
+          "image": "https://images.unsplash.com/photo-1667900334692-0bf6afe68cbf?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "colors": ["#000000", "#4A5568", "#805AD5"],
+          "sizes": ["XS", "S", "M", "L", "XL"],
+          "isNew": true
+        },
+        {
+          "id": 402,
+          "name": "Sports Bra Top",
+          "price": 44.99,
+          "originalPrice": 59.99,
+          "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "colors": ["#000000", "#E53E3E", "#3182CE"],
+          "sizes": ["XS", "S", "M", "L"],
+          "isNew": false
+        },
+        {
+          "id": 403,
+          "name": "Running Jacket",
+          "price": 119.99,
+          "originalPrice": 149.99,
+          "image": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "colors": ["#000000", "#3182CE", "#38A169"],
+          "sizes": ["S", "M", "L", "XL"],
+          "isNew": true
+        },
+        {
+          "id": 404,
+          "name": "Training Shoes",
+          "price": 129.99,
+          "originalPrice": 159.99,
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "colors": ["#000000", "#FFFFFF", "#E53E3E"],
+          "sizes": ["6", "7", "8", "9", "10", "11"],
+          "isNew": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Winter Warmers",
+      "description": "Cozy and warm pieces for cold weather",
+      "category": "Seasonal",
+      "items": [
+        {
+          "id": 501,
+          "name": "Wool Blend Coat",
+          "price": 199.99,
+          "originalPrice": 249.99,
+          "image": "https://images.unsplash.com/photo-1616150326910-6fdb1e30adb7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "colors": ["#4A5568", "#744210", "#1A365D"],
+          "sizes": ["S", "M", "L", "XL"],
+          "isNew": true
+        },
+        {
+          "id": 502,
+          "name": "Cashmere Sweater",
+          "price": 149.99,
+          "originalPrice": 189.99,
+          "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "colors": ["#F7FAFC", "#4A5568", "#B83280"],
+          "sizes": ["S", "M", "L", "XL"],
+          "isNew": false
+        },
+        {
+          "id": 503,
+          "name": "Thermal Leggings",
+          "price": 59.99,
+          "originalPrice": 79.99,
+          "image": "https://images.unsplash.com/photo-1719473466836-ff9f5ebe0e1b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "colors": ["#000000", "#4A5568", "#744210"],
+          "sizes": ["XS", "S", "M", "L", "XL"],
+          "isNew": true
+        },
+        {
+          "id": 504,
+          "name": "Knit Beanie",
+          "price": 24.99,
+          "originalPrice": 34.99,
+          "image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "colors": ["#000000", "#4A5568", "#E53E3E", "#3182CE"],
+          "sizes": ["One Size"],
+          "isNew": false
+        }
+      ]
+    }
+  ]
+}   

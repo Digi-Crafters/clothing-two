@@ -1,0 +1,198 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Urban Comfort Hoodie",
+      "category": "Hoodies",
+      "price": 89.99,
+      "originalPrice": 119.99,
+      "description": "Premium cotton blend hoodie with relaxed fit and comfortable feel. Perfect for casual outings and everyday wear.",
+      "images": [
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1542406775-ade58c52d2e4?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "colors": [
+        { "name": "Charcoal", "value": "#4A5568" },
+        { "name": "Black", "value": "#2D3748" },
+        { "name": "Brick Red", "value": "#E53E3E" }
+      ],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "features": ["Premium Cotton Blend", "Relaxed Fit", "Kangaroo Pocket", "Ribbed Cuffs"],
+      "inStock": true,
+      "isNew": true,
+      "rating": 4.8,
+      "reviewCount": 128,
+      "collectionId": 2
+    },
+    {
+      "id": 2,
+      "name": "Classic Denim Jacket",
+      "category": "Jackets",
+      "price": 129.99,
+      "originalPrice": 159.99,
+      "description": "Timeless denim jacket crafted from premium denim with a classic fit and vintage wash.",
+      "images": [
+        "https://images.unsplash.com/photo-1544022613-e87ca75a784a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "colors": [
+        { "name": "Mid Blue", "value": "#3182CE" },
+        { "name": "Dark Blue", "value": "#2C5282" },
+        { "name": "Navy", "value": "#1A365D" }
+      ],
+      "sizes": ["S", "M", "L", "XL"],
+      "features": ["Premium Denim", "Classic Fit", "Metal Buttons", "Multiple Pockets"],
+      "inStock": true,
+      "isNew": false,
+      "rating": 4.6,
+      "reviewCount": 89,
+      "collectionId": 2
+    },
+    {
+      "id": 3,
+      "name": "Premium Cotton Tee",
+      "category": "T-Shirts",
+      "price": 39.99,
+      "originalPrice": 49.99,
+      "description": "Essential crew neck t-shirt made from 100% organic cotton for ultimate comfort and breathability.",
+      "images": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "colors": [
+        { "name": "White", "value": "#FFFFFF" },
+        { "name": "Black", "value": "#000000" },
+        { "name": "Red", "value": "#E53E3E" },
+        { "name": "Green", "value": "#38A169" }
+      ],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "features": ["100% Organic Cotton", "Crew Neck", "Breathable Fabric", "Tagless Design"],
+      "inStock": true,
+      "isNew": true,
+      "rating": 4.7,
+      "reviewCount": 256,
+      "collectionId": 2
+    },
+    {
+      "id": 4,
+      "name": "Designer Silk Blouse",
+      "category": "Blouses",
+      "price": 149.99,
+      "originalPrice": 199.99,
+      "description": "Elegant silk blouse with delicate details and flowing silhouette for sophisticated occasions.",
+      "images": [
+        "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "colors": [
+        { "name": "Blush Pink", "value": "#FBB6CE" },
+        { "name": "Deep Rose", "value": "#B83280" },
+        { "name": "Lavender", "value": "#805AD5" }
+      ],
+      "sizes": ["XS", "S", "M", "L"],
+      "features": ["100% Silk", "Flowing Silhouette", "French Cuffs", "Elegant Collar"],
+      "inStock": true,
+      "isNew": true,
+      "rating": 4.9,
+      "reviewCount": 67,
+      "collectionId": 3
+    },
+    {
+      "id": 5,
+      "name": "Tailored Wool Trousers",
+      "category": "Pants",
+      "price": 99.99,
+      "originalPrice": 129.99,
+      "description": "Expertly tailored wool trousers with perfect drape and comfortable fit for professional settings.",
+      "images": [
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "colors": [
+        { "name": "Charcoal", "value": "#4A5568" },
+        { "name": "Black", "value": "#2D3748" },
+        { "name": "Brown", "value": "#744210" }
+      ],
+      "sizes": ["S", "M", "L", "XL"],
+      "features": ["Premium Wool Blend", "Tailored Fit", "Belt Loops", "Professional Finish"],
+      "inStock": true,
+      "isNew": false,
+      "rating": 4.5,
+      "reviewCount": 94,
+      "collectionId": 3
+    },
+    {
+      "id": 6,
+      "name": "Linen Blend Shirt",
+      "category": "Shirts",
+      "price": 79.99,
+      "originalPrice": 99.99,
+      "description": "Breathable linen-cotton blend shirt with relaxed fit, perfect for warm weather and casual styling.",
+      "images": [
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "colors": [
+        { "name": "White", "value": "#F7FAFC" },
+        { "name": "Gray", "value": "#4A5568" },
+        { "name": "Blue", "value": "#2B6CB0" }
+      ],
+      "sizes": ["S", "M", "L", "XL"],
+      "features": ["Linen-Cotton Blend", "Breathable", "Relaxed Fit", "Button-Down Collar"],
+      "inStock": true,
+      "isNew": true,
+      "rating": 4.6,
+      "reviewCount": 142,
+      "collectionId": 1
+    },
+    {
+      "id": 7,
+      "name": "Performance Leggings",
+      "category": "Activewear",
+      "price": 69.99,
+      "originalPrice": 89.99,
+      "description": "High-performance leggings with moisture-wicking technology and four-way stretch for maximum mobility.",
+      "images": [
+        "https://images.unsplash.com/photo-1719473466836-ff9f5ebe0e1b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "colors": [
+        { "name": "Black", "value": "#000000" },
+        { "name": "Charcoal", "value": "#4A5568" },
+        { "name": "Purple", "value": "#805AD5" }
+      ],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "features": ["Moisture-Wicking", "Four-Way Stretch", "High Waist", "Squat Proof"],
+      "inStock": true,
+      "isNew": true,
+      "rating": 4.8,
+      "reviewCount": 203,
+      "collectionId": 4
+    },
+    {
+      "id": 8,
+      "name": "Wool Blend Coat",
+      "category": "Outerwear",
+      "price": 199.99,
+      "originalPrice": 249.99,
+      "description": "Luxurious wool blend coat with tailored fit and premium finishing for cold weather elegance.",
+      "images": [
+        "https://images.unsplash.com/photo-1539533018447-63fcce2678e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "colors": [
+        { "name": "Charcoal", "value": "#4A5568" },
+        { "name": "Brown", "value": "#744210" },
+        { "name": "Navy", "value": "#1A365D" }
+      ],
+      "sizes": ["S", "M", "L", "XL"],
+      "features": ["Wool Blend", "Tailored Fit", "Inner Lining", "Multiple Pockets"],
+      "inStock": true,
+      "isNew": true,
+      "rating": 4.7,
+      "reviewCount": 78,
+      "collectionId": 5
+    }
+  ]
+}
