@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -65,7 +66,9 @@ const Hero = () => {
                 whileTap={{ scale: 0.95 }}
                 className="group px-6 py-2.5 sm:px-8 sm:py-3 bg-gradient-to-r from-rose-300 to-orange-300 text-slate-800 rounded-full font-bold text-sm sm:text-base shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 mx-auto lg:mx-0 w-fit mt-4 sm:mt-5 hover:from-rose-400 hover:to-orange-400"
               >
-                Shop Now
+                <Link href="#collections" className="flex items-center gap-2 ">
+                  Shop Now
+                </Link>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </motion.button>
             </motion.div>

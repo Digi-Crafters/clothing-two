@@ -9,7 +9,7 @@ import data from "../data/newArrivals.json"
 const newArrivalsData = data;
 const NewArrivals = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(false); // Changed to false
 
   const products = newArrivalsData.products;
 
@@ -29,16 +29,16 @@ const NewArrivals = () => {
     setCurrentIndex(index);
   };
 
-  // Auto-play functionality - Changed to 2 seconds
-  useEffect(() => {
-    if (!isAutoPlaying) return;
+  // Auto-play functionality - REMOVED/COMMENTED OUT
+  // useEffect(() => {
+  //   if (!isAutoPlaying) return;
 
-    const interval = setInterval(() => {
-      nextSlide();
-    }, 2000); // Changed from 5000 to 2000
+  //   const interval = setInterval(() => {
+  //     nextSlide();
+  //   }, 2000);
 
-    return () => clearInterval(interval);
-  }, [currentIndex, isAutoPlaying, nextSlide]);
+  //   return () => clearInterval(interval);
+  // }, [currentIndex, isAutoPlaying, nextSlide]);
 
   return (
     <section className="relative py-12 sm:py-16 lg:py-20 bg-gradient-to-b from-rose-50 to-orange-50 overflow-hidden" id="newarrivals">
@@ -63,8 +63,7 @@ const NewArrivals = () => {
         {/* Main Slider Container - Fixed height for all screens */}
         <div 
           className="relative bg-white rounded-2xl sm:rounded-3xl shadow-xl overflow-hidden max-w-6xl mx-auto"
-          onMouseEnter={() => setIsAutoPlaying(false)}
-          onMouseLeave={() => setIsAutoPlaying(true)}
+          // Removed mouse enter/leave handlers since auto-play is disabled
         >
           <AnimatePresence mode="wait">
             <motion.div

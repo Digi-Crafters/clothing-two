@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
-import {  Star } from "lucide-react";
+import { Star } from "lucide-react";
 import Image from "next/image";
 import productsData from "../data/products.json";
 
@@ -73,11 +73,6 @@ const FeaturedProducts = () => {
                   {product.isNew && (
                     <span className="bg-rose-500 text-white px-3 py-1 rounded-full text-sm font-bold">
                       NEW
-                    </span>
-                  )}
-                  {product.originalPrice > product.price && (
-                    <span className="bg-orange-500 text-white px-3 py-1 rounded-full text-sm font-bold">
-                      SALE
                     </span>
                   )}
                 </div>

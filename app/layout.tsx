@@ -9,7 +9,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: "Your Brand",
+  title: "Reflect Clothing",
   description: "Modern clothing brand",
 };
 
@@ -18,7 +18,7 @@ import { ReactNode } from "react";
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={spaceGrotesk.className}>
-      <body className="overflow-x-hidden">{children}</body>
+      <body className="overflow-x-hidden w-full">{children}</body>
     </html>
   );
 }

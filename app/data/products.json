@@ -178,8 +178,8 @@
       "originalPrice": 249.99,
       "description": "Luxurious wool blend coat with tailored fit and premium finishing for cold weather elegance.",
       "images": [
-        "https://images.unsplash.com/photo-1539533018447-63fcce2678e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1649937408746-4d2f603f91c8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=926",
+        "https://images.unsplash.com/photo-1649566169356-e47e8d9809e4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1471"
       ],
       "colors": [
         { "name": "Charcoal", "value": "#4A5568" },

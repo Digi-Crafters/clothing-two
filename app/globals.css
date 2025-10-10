@@ -7,3 +7,14 @@
 html {
   scroll-behavior: smooth;
 }
+
+@layer base {
+  html, body {
+    @apply overflow-x-hidden max-w-[100vw];
+  }
+  
+  /* Ensure all sections stay within the viewport */
+  section, div, header, footer {
+    @apply max-w-[100vw];
+  }
+}
